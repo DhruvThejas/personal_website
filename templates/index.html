@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dhruv Thejas - AI Engineer & ML Specialist</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">DT</div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <h1>Hi, I'm <span class="highlight">{{ data.name }}</span></h1>
+            <p class="subtitle">{{ data.title }}</p>
+            <p class="bio">{{ data.bio }}</p>
+            <div class="cta-buttons">
+                <a href="{{ data.resume_url }}" class="btn btn-primary" target="_blank">Download Resume</a>
+                <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+            </div>
+            <div class="social-links">
+                <a href="{{ data.github }}" class="social-icon"><i class="fab fa-github"></i></a>
+                <a href="{{ data.linkedin }}" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                <a href="mailto:{{ data.email }}" class="social-icon"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>I'm an AI Engineer and ML specialist with expertise in LLMs, Computer Vision, and Reinforcement Learning. Currently at Manipal Institute of Technology pursuing B.Tech in Computer Science with AI & ML specialization.</p>
+            <div class="stats">
+                <div class="stat">
+                    <h3>5+</h3>
+                    <p>Projects</p>
+                </div>
+                <div class="stat">
+                    <h3>8.76</h3>
+                    <p>CGPA</p>
+                </div>
+                <div class="stat">
+                    <h3>3+</h3>
+                    <p>Internships</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3>Programming</h3>
+                    <p>Python, Java, C, SQL, HTML, CSS</p>
+                </div>
+                <div class="skill-card">
+                    <h3>ML/DL</h3>
+                    <p>TensorFlow, PyTorch, Keras, Scikit-learn</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Computer Vision</h3>
+                    <p>OpenCV, CNNs, Image Processing</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Tools</h3>
+                    <p>Jupyter, GitHub, AWS, FastAPI</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Let's Connect</h2>
+            <p>Email: <a href="mailto:{{ data.email }}">{{ data.email }}</a></p>
+            <p>Phone: {{ data.phone }}</p>
+            <p>Location: {{ data.location }}</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Dhruv Thejas. All rights reserved.</p>
+    </footer>
+</body>
+</html>
