@@ -1,8 +1,10 @@
 services:
   - type: web
-    name: dhruv-portfolio
+    name: dhruvthejaskj-portfolio
     env: python3
     plan: free
     buildCommand: pip install -r requirements.txt
     startCommand: gunicorn app:app
     healthCheckPath: /
+    domains:
+      - dhruvthejaskj.tk
