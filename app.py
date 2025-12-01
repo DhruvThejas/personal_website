@@ -14,7 +14,6 @@ PORTFOLIO_DATA = {
     "location": "India",
     "github": "https://github.com/DhruvThejas",
     "linkedin": "https://linkedin.com/in/dhruv-thejas",
-
     "experience": [
         {
             "position": "AI Engineer Intern",
@@ -69,7 +68,6 @@ PORTFOLIO_DATA = {
             ]
         }
     ],
-
     "education": [
         {
             "institution": "Manipal Institute of Technology",
@@ -96,47 +94,66 @@ PORTFOLIO_DATA = {
             "achievements": "Academic excellence and leadership awards"
         }
     ],
-
-    102
-    
+    "projects": [
         {
             "title": "CISCO Forecasting League Competition FY25 Q2",
             "tech": "Pandas, Power BI, Excel, Time Series Analysis, LSTM",
             "description": "Predicted FY25 Q2 unit sales for top 20 Cisco masked product categories, achieving 90% accuracy and Rank 4. Analyzed 12 quarters of sales data using Holt's Winter and Exponential Smoothing.",
-            "github": "https://github.com",
+            "github": "https://github.com/DhruvThejas/Cisco_Sales_Prediction",
             "icon": "📊"
         },
         {
             "title": "Global Avian Invasions Atlas Management System",
             "tech": "MySQL, OpenAI, Flask, Python, NL-to-SQL",
             "description": "Built AI-driven Natural Language to SQL conversion system for analyzing bird ranges, habitats, and invasion trends. Trained model on sophisticated queries to generate contextually relevant SQL outputs.",
-            "github": "https://github.com",
+            "github": "https://github.com/DhruvThejas/avian-invasion-sql-bot",
             "icon": "🦅"
         },
         {
             "title": "Headphones Recommendation System",
             "tech": "Python, BeautifulSoup, Web Scraping, Machine Learning",
             "description": "Designed real-time recommendation system providing tailored headphone suggestions. Leveraged web scraping to extract product information with personalized filtering based on user preferences.",
-            "github": "https://github.com",
+            "github": "https://github.com/DhruvThejas/Headphones_Recommendation",
             "icon": "🎧"
         },
         {
             "title": "Speech-to-Text Analysis System",
             "tech": "Flask, Python, Speech Recognition, Grammar Check, NLP",
             "description": "Flask web application converting audio to text with grammar/spell checking and next-word prediction. Responsive Bootstrap frontend for seamless transcription and text correction.",
-            "github": "https://github.com",
+            "github": "https://github.com/DhruvThejas/Spell_checker-Speech2text",
             "icon": "🎤"
         },
         {
             "title": "Soil Erosion Prediction Using ML",
             "tech": "Random Forest, SVM, Neural Networks, Python, Data Analysis",
             "description": "Applied machine learning models to predict soil erosion rates using ESSD dataset. Identified key environmental features contributing to erosion for sustainable land management.",
-            "github": "https://github.com",
+            "github": "https://github.com/DhruvThejas/Soil-Erosion-Prediction-",
             "icon": "🌍",
+            "centered": True
+        },
+        {
+            "title": "Policy File Generator and Summarizer",
+            "tech": "Python, NLP, Document Processing, Flask",
+            "description": "Effortlessly generate, summarize, and simplify policy documents. Create policies from structured prompts, condense lengthy files into clear points, and draft or simplify policies for readability and compliance.",
+            "github": "https://github.com/DhruvThejas/Policy-File-Generator-and-Summarizer-",
+            "icon": "📄"
+        },
+        {
+            "title": "Credit Risk Prediction",
+            "tech": "Python, Scikit-learn, XGBoost, Feature Engineering, Classification",
+            "description": "Developed machine learning models to predict credit risk with high accuracy. Implemented feature engineering, model comparison, and hyperparameter tuning for optimal performance.",
+            "github": "https://github.com/DhruvThejas/Credit-Risk-prediction",
+            "icon": "💰"
+        },
+        {
+            "title": "PacMan RL - Reinforcement Learning Approach",
+            "tech": "Python, Deep Q-Learning, A* Algorithm, Reinforcement Learning",
+            "description": "Intelligent Pac-Man implementation using Reinforcement Learning with Deep Q-Networks combined with A* pathfinding algorithm for optimal ghost avoidance and pellet collection strategies.",
+            "github": "https://github.com/DhruvThejas/PacMan_RL",
+            "icon": "👾",
             "centered": True
         }
     ],
-
     "research": [
         {
             "title": "Comparative Analysis of Kernels for Image Denoising",
@@ -175,7 +192,6 @@ PORTFOLIO_DATA = {
             "centered": True
         }
     ],
-
     "skills": {
         "Programming Languages": ["Python", "Java", "C", "SQL", "HTML", "CSS", "JavaScript"],
         "ML & Deep Learning": ["TensorFlow", "PyTorch", "Keras", "CNNs", "RNNs", "GANs", "Transformers"],
@@ -184,7 +200,6 @@ PORTFOLIO_DATA = {
         "Tools & Frameworks": ["Flask", "FastAPI", "Jupyter", "GitHub", "AWS", "Docker"],
         "Core Competencies": ["Reinforcement Learning", "System Design", "Problem-Solving", "Research", "Communication"]
     },
-
     "contact": {
         "email": "dhruvthejas.kj@gmail.com",
         "phone": "+91 8309303147",
