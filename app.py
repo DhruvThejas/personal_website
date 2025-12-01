@@ -77,7 +77,7 @@ PORTFOLIO_DATA = {
             "specialization": "Specialization in AI & ML",
             "duration": "2022 - 2026",
             "cgpa": "8.76/10",
-            "achievements": "Dean's List, Research publications in IEEE conferences"
+            "achievements": ""
         },
         {
             "institution": "FIITJEE",
@@ -85,7 +85,7 @@ PORTFOLIO_DATA = {
             "specialization": "Science Stream",
             "duration": "2020 - 2022",
             "cgpa": "98%",
-            "achievements": "State rank holder in NEET preparation"
+            "achievements": ""
         },
         {
             "institution": "St. Joseph's School",
@@ -97,7 +97,8 @@ PORTFOLIO_DATA = {
         }
     ],
 
-    "projects": [
+    102
+    
         {
             "title": "CISCO Forecasting League Competition FY25 Q2",
             "tech": "Pandas, Power BI, Excel, Time Series Analysis, LSTM",
