@@ -6,15 +6,13 @@ app = Flask(__name__)
 # Comprehensive Portfolio data with all sections
 PORTFOLIO_DATA = {
     "name": "Dhruv Thejas",
-    "title": "AI Engineer | ML Specialist | Full-Stack Developer",
-    "bio": "AI engineer with a focus on machine learning, computer vision, NLP, and autonomous systems. I create AI systems that think, see, and act, built on a foundation of rigorous experimentation and engineering craftsmanship. My work spans reinforcement learning, multimodal deep learning, and intelligent system design, driven by the belief that real AI innovation happens where theory meets messy real-world constraints.",
+    "title": "AI Engineer | ML Specialist",    "bio": "AI engineer with a focus on machine learning, computer vision, NLP, and autonomous systems. I create AI systems that think, see, and act, built on a foundation of rigorous experimentation and engineering craftsmanship. My work spans reinforcement learning, multimodal deep learning, and intelligent system design, driven by the belief that real AI innovation happens where theory meets messy real-world constraints.",
     "about_bio": "I specialize in designing learning systems that generalize beyond training distributions, leverage structure in data, and make robust decisions in uncertain environments. From building perception driven autonomous agents to developing language aware control architectures, I push toward AI that is adaptable, interpretable, and ready for real-world deployment.",
     "email": "dhruvthejas.kj@gmail.com",
     "phone": "+91 8309303147",
     "location": "India",
     "github": "https://github.com/DhruvThejas",
-    "linkedin": "https://linkedin.com/in/dhruv-thejas",
-    "experience": [
+    "linkedin": "https://www.linkedin.com/in/dhruv-thejas-41b28425b/",    "experience": [
         {
             "position": "AI Engineer Intern",
             "company": "Linqura",
